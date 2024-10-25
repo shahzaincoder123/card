@@ -1,0 +1,59 @@
+img{
+    height: 80px;
+}
+.insagram{
+    height: 80px;
+}
+.gap{
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;
+    display: flex;
+}
+ul{
+    border: 2px solid red;
+    background-color: white;
+    border-color: black;
+    width:300px;
+    padding: 20px;
+    text-align: center;
+}
+.abc{
+    text-align: center;
+}
+li{
+    display: inline;
+    text-align: justify;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 65%;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+button:hover{
+    background-color: aqua;
+}
+.colorchange{
+    background-color: white;
+    color: rgba(226,48,108,255);
+}
+.colorchange:hover{
+    background-color: darkmagenta;
+}
+.bgchange{
+    background-color: rgba(226,48,108,255);
+}
+.tchange{
+    color: white;
+}
+.hcolor{
+    color: white;
+    text-align: center;
+}
+.tcolorchange:hover{
+    background-color: red;
+}

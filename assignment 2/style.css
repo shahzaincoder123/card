@@ -1,0 +1,35 @@
+body {
+    background-color: #f4f4f4;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.card {
+    background-color: white;
+    width: 18%;
+    padding-bottom: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.126);
+    overflow: hidden;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+}
+.card p {
+    color: #555;
+    font-weight: bold;
+}
+.card button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 20px;
+    width: 90%;
+    cursor: pointer;
+}
+.card button:hover {
+    background-color: #555;
+}
